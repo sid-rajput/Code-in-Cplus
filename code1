@@ -11,4 +11,43 @@ return 0;
 use namespace std;
 int main(){
 cout<<"Hello World"<<endl;
+return 0;
+}
+
+\\Program to check the size of data types and their default values\\
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  cout <<"size of char:"<< sizeof(char)<< "bytes" <<endl;
+  cout <<"size of int:"<< sizeof(int)<< "byte" <<endl;
+  cout <<"size of float:"<< sizeof(float)<< "byte" <<endl;
+  cout <<"size of double:"<< sizeof(double)<< "byte" <<endl;
+   cout << "Size of short: " << sizeof(short) << " byte" << endl;
+    cout << "Size of unsigned: " << sizeof(unsigned) << " bytes" << endl;
+    cout << "Size of signed " << sizeof(signed) << " bytes" << endl;
+    cout << "Size of long: " << sizeof(long) << " bytes" << endl;
+    char ch;
+    float f;
+    int i;
+    double d;
+    long l;
+    signed s;
+    short st;
+
+    cout << ch << endl;
+    cout << f << endl;
+    cout << i << endl;
+    cout << d << endl;
+    cout << l << endl;
+    cout << s << endl;
+    cout << sh << endl;
+
+
+
+    return 0;
+
+
 }
