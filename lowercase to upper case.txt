@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main(){
+    char ch;
+    cout<<"Enter the lower value"<<endl;
+    cin>>ch;
+    ch = ch - 32;//because 97-65 = 32 
+    cout<<"LOWER TO UPPER:="<<ch;
+    return 0;
+}
